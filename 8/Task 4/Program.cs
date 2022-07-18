@@ -16,7 +16,7 @@ int [,,] CreateFiilInput3DArray(int length1, int length2, int length3)
         {
             for (int k = 0; k < length3; k++)
             {
-                Console.Write ("Введите двухзначное  число ");
+                Console.Write ("Введите  уникальное двухзначное  число ");
                 array3D[i,j,k]= Convert.ToInt32(Console.ReadLine());
             }
         }
